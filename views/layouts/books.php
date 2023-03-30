@@ -63,7 +63,7 @@ AppAsset::register($this);
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-3">
-                            <a href="index.html" class="site-brand">
+                            <a href="/web/" class="site-brand">
                                 <img src="/logo.png" alt="">
                             </a>
                         </div>
@@ -75,7 +75,7 @@ AppAsset::register($this);
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#pricing">PRICING</a></li>
-        <li><a href="/site/books">Book Search</a></li>
+        <li><a href="/web/site/books">Book Search</a></li>
       </ul>
                             </div>
                         </div>

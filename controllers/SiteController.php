@@ -68,6 +68,7 @@ class SiteController extends Controller
 	public function actionBooks()
     {
 		   $this->layout = '@app/views/layouts/books';
+		   		   $url = "https://openlibrary.org/search.json?q=*:*&limit=100";
 		    if (isset($_GET['query']))  {
 			  $url = "https://openlibrary.org/search.json?q=".$_GET['query']."&limit=100";  
 		   }else
@@ -94,7 +95,7 @@ class SiteController extends Controller
 				// echo "Thumbnail: $thumbnail\n\n";
 			// }
 			 $provider = new ArrayDataProvider([
-    'allModels' => (!empty($data['docs']) ? $data['docs'] : ''),
+    'allModels' => (isset($data['docs']) ? $data['docs'] : []),
     'pagination' => [
         'pageSize' => 10,
     ],
@@ -105,7 +106,7 @@ class SiteController extends Controller
 ]);
 
         $this->view->title = 'Book List';
-        return $this->render('books', ['dataProvider' => $provider,'modal' => $data['docs']]);
+        return $this->render('books', ['dataProvider' => $provider,'modal' => isset($data['docs']) ? $data['docs'] : []]);
     }
 
 
@@ -145,6 +146,9 @@ public function actionBooksearch()
 				$success = 1;
 			//}
         }
+        
+        
+        
         return json_encode(array(
             'success' => $success,
             'title' => $title,

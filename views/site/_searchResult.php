@@ -27,8 +27,8 @@ use yii\helpers\Url;
 											</a>
 											<div class="hover-btns">
 												
-												<a id="detail" href="#" data-bs-toggle="modal" data-isbn="<?=$modal[$index]['isbn'][0]?>" data-thumbnail="<?=$thumbnail?>" data-author_name="<?=$modal[$index]['author_name'][0];?>"  data-bs-target="#quickModal"
-													class="single-btn">
+												<a id="" href="#"  data-isbn="<?=isset($modal[$index]['isbn'][0]) ? $modal[$index]['isbn'][0] : ''?>" data-thumbnail="<?=$thumbnail?>" data-author_name="<?=$modal[$index]['author_name'][0];?>"  
+													class="single-btn detail">
 													<i class="fas fa-eye"></i>
 												</a>
 											</div>

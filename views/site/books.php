@@ -123,7 +123,7 @@ $booksearch = Url::to(['site/booksearch']);
 
 
 $js = <<< JS
-		$('#detail').on('click',function(){
+		$('.detail').on('click',function(){
 			var isbn = $(this).data("isbn");
 			var author_name = $(this).data("author_name");
 			var thumbnail = $(this).data("thumbnail");
@@ -143,9 +143,11 @@ $js = <<< JS
 				var data = JSON.parse(msg);
 				console.log(data);
 				if(data.success == '1') {
+				    
 					$("#cover").attr("src",thumbnail);
 					$("#author").text(author_name);
 					$("#title").text(data.title);
+					$('#quickModal').modal('show');
 					
 				}
 				return false;

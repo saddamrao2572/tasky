@@ -63,7 +63,7 @@ AppAsset::register($this);
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#pricing">PRICING</a></li>
-        <li><a href="/site/books">Book Search</a></li>
+        <li><a href="/web/site/books">Book Search</a></li>
       </ul>
     </div>
   </div>
