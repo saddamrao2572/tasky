@@ -1,0 +1,627 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.home-child,
+.home-item {
+  position: absolute;
+  width: 100%;
+  top: 1781px;
+  right: 3px;
+  left: -3px;
+  background-color: var(--color-gainsboro-100);
+  height: 534px;
+}
+.home-item {
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-dodgerblue);
+  height: 48px;
+}
+.mo-do-0800-1200-and,
+.sie-erreichen-uns {
+  position: absolute;
+  top: 12px;
+  font-size: var(--font-size-xl);
+}
+.mo-do-0800-1200-and {
+  left: 12px;
+}
+.sie-erreichen-uns {
+  right: 42px;
+}
+.home-inner {
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-white);
+  height: 86px;
+}
+.y-ur-logo {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+}
+.yty7-1-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 28px;
+  object-fit: cover;
+  margin-left: -249px;
+}
+.y-ur-logo-parent {
+  position: absolute;
+  top: 62px;
+  left: 27px;
+  width: 283px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: var(--font-size-29xl);
+  color: var(--color-dodgerblue);
+}
+.leistungen {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.leistungen-parent {
+  position: absolute;
+  top: 72px;
+  left: 602px;
+  width: 811px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  color: var(--color-darkslategray-100);
+}
+.pexels-jeshootscom-834892-2-icon {
+  position: absolute;
+  width: calc(100% + 6px);
+  top: 134px;
+  right: -6px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 273px;
+  object-fit: cover;
+}
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: 186px;
+  left: 52px;
+  background-color: var(--color-white);
+  width: 365px;
+  height: 330px;
+}
+.frame-item {
+  top: 605px;
+}
+.frame-inner {
+  border: 0;
+  top: 186px;
+  left: calc(50% - 183px);
+  width: 366px;
+  opacity: 0;
+}
+.frame-inner.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+.frame-child1,
+.frame-child2,
+.frame-inner,
+.rectangle-div {
+  position: absolute;
+  background-color: var(--color-white);
+  height: 330px;
+}
+.rectangle-div {
+  top: 605px;
+  left: calc(50% - 183px);
+  width: 366px;
+}
+.frame-child1,
+.frame-child2 {
+  top: 186px;
+  right: 52px;
+  width: 365px;
+}
+.frame-child2 {
+  top: 605px;
+}
+.untitled-3-1-icon {
+  top: 247px;
+  left: 166px;
+  width: 136px;
+  height: 145px;
+}
+.jj-1-icon,
+.untitled-3-1-icon,
+.untitled-3-3-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.untitled-3-3-icon {
+  top: 247px;
+  right: 166px;
+  width: 136px;
+  height: 145px;
+}
+.jj-1-icon {
+  top: 242px;
+  left: calc(50% - 71px);
+  width: 141px;
+  height: 150px;
+}
+.uio-1 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 678px;
+  left: 126px;
+  width: 216px;
+  height: 121px;
+  background-image: url(./public/uio1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.jki-icon,
+.tre-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.jki-icon {
+  top: 679px;
+  right: 190px;
+  width: 89px;
+  height: 135px;
+}
+.tre-icon {
+  top: 678px;
+  left: calc(50% - 52px);
+  width: 104px;
+  height: 120px;
+}
+.gravurtechnik,
+.lasertechnik,
+.stempel {
+  position: absolute;
+  top: 416px;
+  font-weight: 500;
+}
+.lasertechnik {
+  left: 126px;
+}
+.gravurtechnik,
+.stempel {
+  left: calc(50% - 122px);
+}
+.stempel {
+  top: 814px;
+  left: calc(50% - 72px);
+}
+.pokale {
+  top: 814px;
+  right: 179px;
+}
+.pokale,
+.tampondruck,
+.werbetechnik {
+  position: absolute;
+  font-weight: 500;
+}
+.tampondruck {
+  top: 416px;
+  right: 118px;
+}
+.werbetechnik {
+  top: 823px;
+  left: 115px;
+}
+.rectangle-parent {
+  position: absolute;
+  height: 446.88%;
+  top: 50%;
+  bottom: -396.87%;
+  left: calc(50% - 631px);
+  background-color: var(--color-gainsboro-100);
+  width: 1262px;
+  overflow: hidden;
+}
+.group-icon {
+  position: absolute;
+  top: 13px;
+  left: calc(50% - 27px);
+  width: 53px;
+  height: 15.31px;
+}
+.modernste-technologien-fur {
+  margin: 0;
+}
+.modernste-technologien-fur-container {
+  position: absolute;
+  top: 73px;
+  left: calc(50% - 307px);
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+  color: var(--color-white);
+}
+.left-icon {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  width: 110px;
+  height: 110px;
+}
+.frame-parent,
+.left-icon1 {
+  position: absolute;
+  top: 53px;
+  left: 909px;
+  width: 118px;
+  height: 118px;
+}
+.frame-parent {
+  top: 288px;
+  left: 203px;
+  background-color: var(--color-dodgerblue);
+  width: 1028px;
+  height: 224px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-200);
+}
+.left-icon2 {
+  position: absolute;
+  top: 2470px;
+  left: 0;
+  width: 110px;
+  height: 110px;
+}
+.left-icon3 {
+  position: absolute;
+  top: 2466px;
+  right: 15px;
+  width: 118px;
+  height: 118px;
+}
+.unser-stempelshop {
+  position: absolute;
+  top: 1428px;
+  left: 86px;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  color: var(--color-darkslategray-200);
+  text-align: center;
+}
+.ju-1-icon {
+  position: absolute;
+  top: 1286px;
+  right: -422px;
+  width: 716px;
+  height: 716px;
+  object-fit: cover;
+}
+.lorem-ipsum-dolor {
+  position: absolute;
+  top: 1482px;
+  left: 84px;
+  font-weight: 500;
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  width: 1062px;
+}
+.lorem-ipsum-dolor1,
+.uber-uns1 {
+  position: relative;
+  font-weight: 500;
+}
+.lorem-ipsum-dolor1 {
+  align-self: stretch;
+  font-size: var(--font-size-13xl);
+  color: var(--color-dimgray-200);
+  text-align: left;
+}
+.uber-uns-parent {
+  position: absolute;
+  top: 1873px;
+  right: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-darkslategray-200);
+}
+.mehr-erfahen,
+.zum-shop {
+  position: absolute;
+  font-weight: 500;
+  color: var(--color-dodgerblue);
+  display: inline-block;
+}
+.zum-shop {
+  top: 1644px;
+  left: 119px;
+  width: 164px;
+}
+.mehr-erfahen {
+  top: 2107px;
+  right: 867px;
+  width: 228px;
+}
+.home-child1,
+.home-child2 {
+  position: absolute;
+  border: 3px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  height: 76px;
+}
+.home-child1 {
+  top: 1625px;
+  left: 86px;
+  width: 230px;
+}
+.home-child2 {
+  top: 2089px;
+  right: 867px;
+  width: 252px;
+}
+.hg-1-icon {
+  position: absolute;
+  top: 1683px;
+  left: 0;
+  width: 735px;
+  height: 736px;
+  object-fit: cover;
+}
+.home-child3 {
+  position: absolute;
+  width: calc(100% - 333px);
+  top: 2241px;
+  right: 167px;
+  left: 166px;
+  background-color: var(--color-dodgerblue);
+  height: 120px;
+}
+.unsere-kunden {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2272px;
+  left: 544px;
+  font-size: var(--font-size-29xl);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.design-1-1,
+.design-1-2 {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 169px;
+  height: 241px;
+  object-fit: cover;
+}
+.design-1-2 {
+  top: 0;
+  left: 169px;
+  width: 224px;
+  height: 211px;
+}
+.design-1-3,
+.design-1-4,
+.design-1-5,
+.design-1-6,
+.design-1-7 {
+  position: absolute;
+  top: 22px;
+  left: 382px;
+  width: 169px;
+  height: 168px;
+  object-fit: cover;
+}
+.design-1-4,
+.design-1-5,
+.design-1-6,
+.design-1-7 {
+  left: 539px;
+  width: 145px;
+}
+.design-1-5,
+.design-1-6,
+.design-1-7 {
+  left: 711px;
+  width: 156px;
+}
+.design-1-6,
+.design-1-7 {
+  left: 867px;
+  width: 155px;
+}
+.design-1-7 {
+  left: 1037px;
+  width: 222px;
+}
+.design-1-1-parent {
+  position: absolute;
+  top: 2419px;
+  left: calc(50% - 627px);
+  width: 1259px;
+  height: 253px;
+  overflow: hidden;
+}
+.map-marker-2-256-1-icon {
+  position: relative;
+  width: 98px;
+  height: 98px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.peritus-webdesign-gmnh {
+  position: absolute;
+  top: 40px;
+  right: 117px;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+}
+.anzengruberstabe-10-a-4600-container {
+  position: absolute;
+  top: 125px;
+  right: 250px;
+  font-weight: 500;
+}
+.emailwirperitus-wedesigncom,
+.tel-43-08768-container {
+  position: absolute;
+  top: 216px;
+  right: 183px;
+  font-weight: 500;
+}
+.emailwirperitus-wedesigncom {
+  top: 305px;
+  right: 136px;
+}
+.offnugszeitein-mo-do-0800-12-container {
+  position: absolute;
+  top: 372px;
+  right: 58px;
+  font-weight: 500;
+}
+.alarm-clock-icon,
+.email-search-icon,
+.phone-call-icon {
+  position: absolute;
+  top: 215px;
+  right: 489px;
+  width: 44px;
+  height: 44px;
+}
+.alarm-clock-icon,
+.email-search-icon {
+  top: 295px;
+}
+.alarm-clock-icon {
+  top: 371px;
+  right: 486px;
+}
+.map-marker-2-256-1-1 {
+  position: absolute;
+  top: 125px;
+  right: 483px;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+}
+
+.foobar,
+.impressum,
+.kontakt1,
+.uber-uns2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 379.5px);
+  font-weight: 500;
+}
+.impressum,
+.kontakt1,
+.uber-uns2 {
+  left: calc(50% - 199.5px);
+}
+.impressum,
+.kontakt1 {
+  left: calc(50% + 9.5px);
+}
+.impressum {
+  left: calc(50% + 210.5px);
+}
+.foobar-parent {
+  position: absolute;
+  top: 3543px;
+  left: 333px;
+  width: 759px;
+  height: 39px;
+  color: var(--color-dimgray-100);
+}
+.frame-child3 {
+  position: absolute;
+  top: 21px;
+  right: 28px;
+  background-color: #e7e7e7;
+  width: 90px;
+  height: 89px;
+}
+.left-icon4,
+.nach-oben {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  width: 102px;
+  height: 102px;
+}
+.nach-oben {
+  top: 74px;
+  right: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 111px;
+  height: 18px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 3508px;
+  left: 1291px;
+  width: 124px;
+  height: 110px;
+  font-size: 16px;
+  color: var(--color-dimgray-100);
+}
+.copyright-2016-peritus {
+  position: absolute;
+  top: 3618px;
+  left: calc(50% - 209px);
+  font-size: 24px;
+  font-weight: 500;
+  color: #5e5a5a;
+}
+.home {
+  flex: 1;
+  position: relative;
+  background-color: var(--color-white);
+  height: 3681px;
+  overflow: hidden;
+}
+.home-parent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
