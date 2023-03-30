@@ -479,10 +479,95 @@ element.style {
     min-height: 600px;
     padding-bottom: 60px;
 }
+.peritus-webdesign-gmnh-parent {
+    position: absolute;
+    /* top: 14px; */
+    margin-top: -4% !important;
+    right: 1% !important;
+    float: right;
+    background-color: #1271ff !important;
+    width: 43% !important;
+    color: white !important;
+    right: 49px !important;
+    height: 521px !important;
+    font-size: var(--font-size-xl);
+}
+
+
+.thumbnail > img :hover{
+	box-shadow: 2px 2px 2px 2px grey;
+}
+.thumbnail {
+	z-index:999;
+}
+.header-top {
+    background: #056ece !important;
+}.product-view-mode .sorting-btn.active {
+    color: #056ece !important;
+}
+
+#scrollUp {
+    bottom: 53px !important;
+    right: 56px !important;
+    padding: 26px 23px !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    border: 2px solid #ebebeb !important;
+    color: #292929 !important;
+    -webkit-transform: rotate(-90deg) !important;
+    transform: rotate(-90deg) !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.9) !important;
+    z-index: 9;
+    font-size: 12px !important;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.header-search-block button {
+
+    background: #056ece !important;
+   
+}
+.price {
+    color: #929292;
+    font-size: 18px;
+    color: #056ece !important;
+    font-weight: 600;
+}
+
+.peritus-webdesign-gmnh-parent {
+    position: absolute;
+    /* top: 14px; */
+    margin-top: -4% !important;
+    right: 1% !important;
+    float: right;
+    background-color: #1271ff !important;
+    width: 43% !important;
+    color: white !important;
+    right: 49px !important;
+    height: 521px !important;
+    font-size: var(--font-size-xl);
+}
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    
+    
+    .peritus-webdesign-gmnh-parent {
+    position: absolute;
+    /* top: 14px; */
+    margin-top: 29% !important;
+    right: 1% !important;
+    float: right;
+    background-color: #1271ff !important;
+    width: 81% !important;
+    color: white !important;
+    right: 4px !important;
+    height: 465px !important;
+    font-size: var(--font-size-xl);
+}
     .home-item,.leftIcon,.rightIcon,.emailwirperitus-wedesigncom,.modernste-technologien-fur
     {
         display:none;
@@ -616,57 +701,19 @@ element.style {
     background-repeat: no-repeat;
     background-position: top;
 }
-}
-.thumbnail > img :hover{
-	box-shadow: 2px 2px 2px 2px grey;
-}
-.thumbnail {
-	z-index:999;
-}
-.header-top {
-    background: #056ece !important;
-}.product-view-mode .sorting-btn.active {
-    color: #056ece !important;
-}.peritus-webdesign-gmnh-parent {
+
+
+.peritus-webdesign-gmnh-parent {
     position: absolute;
     /* top: 14px; */
-    margin-top: 34% !important;
+    margin-top: 30% !important;
     right: 1% !important;
     float: right;
     background-color: #1271ff !important;
-    width: 84% !important;
+    width: 79% !important;
     color: white !important;
-    right: 4px !important;
+    right: 22px !important;
     height: 521px !important;
     font-size: var(--font-size-xl);
 }
-
-#scrollUp {
-    bottom: 53px !important;
-    right: 56px !important;
-    padding: 26px 23px !important;
-    text-align: center !important;
-    cursor: pointer !important;
-    border: 2px solid #ebebeb !important;
-    color: #292929 !important;
-    -webkit-transform: rotate(-90deg) !important;
-    transform: rotate(-90deg) !important;
-    font-weight: 600 !important;
-    text-transform: uppercase;
-    background: rgba(255, 255, 255, 0.9) !important;
-    z-index: 9;
-    font-size: 12px !important;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-}
-.header-search-block button {
-
-    background: #056ece !important;
-   
-}
-.price {
-    color: #929292;
-    font-size: 18px;
-    color: #056ece !important;
-    font-weight: 600;
 }
